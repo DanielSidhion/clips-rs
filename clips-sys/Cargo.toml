@@ -1,0 +1,12 @@
+[package]
+name = "clips-sys"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+thiserror = "1.0"
+
+[build-dependencies]
+bindgen = "0.69.4"
+pkg-config = "0.3.30"

@@ -1,0 +1,13 @@
+[package]
+name = "clips"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitflags = "2.6"
+clips-sys = { path = "../clips-sys" }
+log = "0.4"
+nix = { version = "0.29", features = ["sched"] }
+oneshot = "0.1"
+serde = { version = "1", features = ["derive"] }
+thiserror = "1.0"
